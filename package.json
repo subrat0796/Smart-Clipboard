@@ -2,9 +2,10 @@
   "name": "smart-clipboard",
   "version": "1.0.0",
   "description": "Smart-Clipboard using electron js",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dev": "nodemon --exec electron ."
   },
   "keywords": [
     "clipboard",
@@ -13,6 +14,7 @@
   "author": "Subrat",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^29.2.0"
+    "electron": "^29.2.0",
+    "nodemon": "^3.1.0"
   }
 }

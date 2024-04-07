@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  background-color: #e0d4d4;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: fit-content;
+  margin: auto;
+  border-bottom: 2px solid;
+}
+
+.items-copied {
+  margin-top: 10px;
+  font-weight: 100;
+  font-size: large;
+}
+
+.clipboard-items {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 20px auto 0 auto;
+}
+
+.clipboard-item {
+  border: 1px solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.clipboard-item > p {
+  margin: 2px;
+  padding: 5px;
+}
